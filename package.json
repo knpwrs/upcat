@@ -2,16 +2,22 @@
   "name": "vuetify-webpack-simple",
   "version": "0.0.0",
   "description": "Gfycat Automatic Uploader",
+  "main": "src/index.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=development webpack-dev-server --open --inline --hot --host=0.0.0.0 --port=8081",
+    "start": "electron .",
     "lint": "eslint src/**/*.{js,vue} *.js"
   },
   "author": "Kenneth Powers <ken@kenpowers.net>",
   "license": "MIT",
   "dependencies": {
+    "co": "^4.6.0",
+    "electron": "^1.4.14",
     "html-webpack-plugin": "^2.26.0",
+    "pify": "^2.3.0",
     "vue": "^2.1.8",
-    "vuetify": "^0.8.5"
+    "vuetify": "^0.8.5",
+    "webpack": "^2.2.0-rc.2",
+    "webpack-dev-server": "^2.2.0-rc.0"
   },
   "devDependencies": {
     "babel-core": "^6.21.0",
@@ -26,8 +32,6 @@
     "file-loader": "^0.9.0",
     "style-loader": "^0.13.1",
     "vue-loader": "^10.0.2",
-    "vue-template-compiler": "^2.1.8",
-    "webpack": "^2.2.0-rc.2",
-    "webpack-dev-server": "^2.2.0-rc.0"
+    "vue-template-compiler": "^2.1.8"
   }
 }
