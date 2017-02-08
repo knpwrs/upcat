@@ -1,5 +1,7 @@
 # What's Upcat?
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/knpwrs/upcat.svg)](https://greenkeeper.io/)
+
 > Gfycat Automatic Uploader
 
 ## Build Setup
